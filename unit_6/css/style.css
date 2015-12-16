@@ -26,6 +26,7 @@ article {
 	background-color: #FFb7CF;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center
 }
 
 #left {
@@ -69,4 +70,19 @@ section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h4 {text-align: center;
 }
