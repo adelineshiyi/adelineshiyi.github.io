@@ -1,0 +1,102 @@
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1% black solid;
+	padding: 4%;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 0;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+#two_column {
+	background-color: #FFb7CF;
+	border: 1px black solid;
+	padding: 5%;
+	text-align: center
+}
+
+#left {
+	border: 0px black solid;
+	padding: 0px;
+	float: left;
+	width: 96%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 5%;
+	float: left;
+	width: 85%;
+	text-align:center;
+	font-size: 1em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content:"";
+	clear: both;
+	height:0;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+#portfolio {
+	text-align: center;
+
+}
+
+h3 {
+	text-align: center;
+	font-size: 1em;
+}
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h4 {text-align: center;
+	font-size: 1em;
+}
+
+p {
+		font-size: 0.8em;
+}
+
+@media only screen and (max-width: 477px) {
+	nav a {
+		float: none;
+	}
+}
